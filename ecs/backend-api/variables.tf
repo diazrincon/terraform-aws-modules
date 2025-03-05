@@ -52,12 +52,12 @@ variable "log_retention_days" {
 }
 
 variable "efs_file_system_id" {
-  type = string
+  type    = string
   default = ""
 }
 
 variable "app_configuration_secret" {
-  type = string
+  type    = string
   default = ""
 }
 

@@ -64,5 +64,5 @@ resource "aws_ecs_task_definition" "this" {
   volume {
     name = "nginx-storage"
   }
-  
+
 }
